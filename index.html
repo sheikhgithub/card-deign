@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>card design</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top-bar">
+        <!-- Left: BNB info -->
+        <div class="left">
+          <img src="	https://static.vecteezy.com/system/resources/thumbnails/043/987/950/small/cashback-3d-icon-png.png" alt="BNB" class="coin-img" />
+          <span class="coin-name">BNBUSD</span>
+          <span class="coin-price">$228.5332</span>
+        </div>
+      
+        <!-- Center: Arrow + Card Icon -->
+        <div class="center">
+          <button class="arrow-btn">←</button>
+          <img src="https://cdn-icons-png.flaticon.com/512/1032/1032490.png" alt="Card" class="card-icon" />
+          <button class="arrow-btn">→</button>
+        </div>
+      
+        <!-- Right: Timer + Icons -->
+        <div class="right">
+          <div class="timer-box">
+            <span class="time">00:38</span>
+            <span class="time-label">5m</span>
+            <img src="	https://cdn-icons-png.flaticon.com/256/2446/2446320.png" alt="Clock" class="clock-icon" />
+          </div>
+          <div class="icon-group">
+            <img src="https://cdn-icons-png.flaticon.com/512/1946/1946429.png" alt="Help" />
+            <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Trophy" />
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="Chat" />
+          </div>
+        </div>
+      </div>
+      
+    <div class="card-container">
+        <!-- Card 1 -->
+        <div class="card live">
+          <div class="card-header">
+            <span class="status live">LIVE</span>
+            <span class="id">#218486</span>
+          </div>
+      
+          <div class="card-body">
+            <div class="direction">UP</div>
+            <div class="payout">2.15x Payout</div>
+      
+            <div class="price-box">
+              <div class="label">LAST PRICE</div>
+              <div class="price">$228.5332</div>
+              <div class="change down">↓ $−0.4141</div>
+            </div>
+      
+            <div class="details">
+              <div><strong>Locked Price:</strong> $228.9473</div>
+              <div><strong>Prize Pool:</strong> <span class="bnb">8.5143 BNB</span></div>
+            </div>
+          </div>
+      
+          <div class="card-footer down">
+            1.87x Payout <strong>DOWN</strong>
+          </div>
+        </div>
+      
+        <!-- Card 2 -->
+        <div class="card expired">
+          <div class="card-header expired-header">
+            <span class="status">EXPIRED</span>
+            <span class="id">#218485</span>
+          </div>
+      
+          <div class="card-body">
+            <div class="direction">UP</div>
+            <div class="payout">1.76x Payout</div>
+      
+            <div class="price-box">
+              <div class="label">CLOSED PRICE</div>
+              <div class="price">$228.9473</div>
+              <div class="change down">↓ $−0.5791</div>
+            </div>
+      
+            <div class="details">
+              <div><strong>Locked Price:</strong> $229.5264</div>
+              <div><strong>Prize Pool:</strong> <span class="bnb">5.2427 BNB</span></div>
+            </div>
+          </div>
+      
+          <div class="card-footer down">
+            2.32x Payout <strong>DOWN</strong>
+          </div>
+        </div>
+      
+        <!-- Card 3 -->
+        <div class="card next">
+          <div class="card-header next-header">
+            <span class="status">NEXT</span>
+            <span class="id">#218487</span>
+          </div>
+      
+          <div class="card-body">
+            <div class="direction">UP</div>
+            <div class="payout">1.35x Payout</div>
+      
+            <div class="details">
+              <div><strong>Prize Pool:</strong> <span class="bnb">2.3760 BNB</span></div>
+            </div>
+      
+            <div class="button-group">
+              <button class="btn up">Enter UP</button>
+              <button class="btn down">Enter DOWN</button>
+            </div>
+          </div>
+      
+          <div class="card-footer down">
+            3.84x Payout <strong>DOWN</strong>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+    <div class="card-container" id="card-container">
+        <!-- Cards will be injected here via JavaScript -->
+      </div>
+      
+    
+
+  <script src="script.js"></script>
+</body>
+</html>

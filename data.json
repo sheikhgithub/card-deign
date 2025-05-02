@@ -1,0 +1,43 @@
+[
+  {
+    "status": "LIVE",
+    "id": "#218486",
+    "direction": "UP",
+    "payout": "2.15x Payout",
+    "priceType": "LAST PRICE",
+    "price": "$228.532",
+    "change": "↘ $0.4141",
+    "changeType": "down",
+    "lockedPrice": "$228.9473",
+    "prizePool": "8.5143 BNB",
+    "footerPayout": "1.87x Payout",
+    "footerDirection": "DOWN",
+    "type": "live"
+  },
+  {
+    "status": "EXPIRED",
+    "id": "#218485",
+    "direction": "UP",
+    "payout": "1.76x Payout",
+    "priceType": "CLOSED PRICE",
+    "price": "$228.9473",
+    "change": "↘ $0.5791",
+    "changeType": "down",
+    "lockedPrice": "$229.5264",
+    "prizePool": "5.2427 BNB",
+    "footerPayout": "2.32x Payout",
+    "footerDirection": "DOWN",
+    "type": "expired"
+  },
+  {
+    "status": "NEXT",
+    "id": "#218487",
+    "direction": "UP",
+    "payout": "1.35x Payout",
+    "price": "$228.9473",
+    "prizePool": "2.3760 BNB",
+    "footerPayout": "3.84x Payout",
+    "footerDirection": "DOWN",
+    "type": "next"
+  }
+]
